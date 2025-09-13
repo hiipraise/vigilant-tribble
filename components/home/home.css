@@ -63,6 +63,9 @@
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
+    @media (max-width:640px){
+        display:hidden;
+    }
 }
 
 .home__img {
@@ -122,7 +125,9 @@
     grid-template-columns: max-content;
     row-gap: 1rem;
     position: relative;
-    z-index: 10;
+    z-index: 10;@media (max-width:640px){
+        display:hidden;
+    }
 }
 
 .home__social-icon {
